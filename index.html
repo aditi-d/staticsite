@@ -45,14 +45,17 @@
       <div class="row">
          <div class="col-xs-2 col-sm-2 col-md-2 sidebar">
           <ul class="sidebar-subnav">
-            <li><input type="button" value="About Me"/></li>
-            <li><input type="button" value="Education"/></li>
-            <li><input type="button" value="Work"/></li>
-            <li><input type="button" value="Projects"/></li>
-            <li><input type="button" value="Hobbies"/></li>
+            <li><input type="button" id="aboutme" value="About Me"/></li>
+            <li><input type="button" id="education" value="Education"/></li>
+            <li><input type="button" id="work" value="Work"/></li>
+            <li><input type="button" id="projects" value="Projects"/></li>
+            <li><input type="button" id="hobbies" value="Hobbies"/></li>
           </ul>
         </div>
-        <div class="col-xs-10 col-sm-10 col-md-10 content">
+        <div id="content" class="col-xs-10 col-sm-10 col-md-10 content">
+          <div id="content-text" class="content-text">
+            <p></p>
+          </div>
         </div> 
       </div>
       <!-- <div class="row">
@@ -70,5 +73,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="public/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="javascript/loadInfo.js"></script>
   </body>
 </html>

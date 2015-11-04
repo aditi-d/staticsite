@@ -31,14 +31,14 @@
 }
 
 .header .pname {
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster', cursive, Monospace;
     font-size: 40px;
     color: #FFF8DC;
     margin-left: 5%;
 }
 
 .header .subhead {
-    font-family: 'Lobster', cursive;
+    font-family: 'Lobster', cursive, Monospace;
     font-size: 20px;
     color: #FFF8DC;
     margin-left: 5%;   
@@ -119,6 +119,13 @@
     background-color: #BA6F3C;
     padding: 0px 10px 10px 5px;
     position: 0px 10px 10px 0px;
+}
+
+.content-text {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    color: #FFF8DC;
+    padding: 30px 20px 0px 20px;
 }
 
 hr {
