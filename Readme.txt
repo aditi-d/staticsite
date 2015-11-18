@@ -1,1 +1,1 @@
-This is a static website.
+This is a static website. To hit the live site hit http://aditid.paperplane.io
